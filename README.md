@@ -1,6 +1,6 @@
 # LMS Platform
 
-A comprehensive Learning Management System (LMS) platform designed to provide educational institutions with a robust and user-friendly interface for managing courses, students, and educational content.
+A comprehensive Learning Management System (LMS) platform designed to provide educational institutions with a robust and user-friendly interface for managing courses, quizzes, notifications, and real-time chat.
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ A comprehensive Learning Management System (LMS) platform designed to provide ed
 
 ## Introduction
 
-This LMS platform is designed to help educators and institutions manage courses, students, and educational content effectively. The platform provides features for creating courses, managing students, tracking progress, and more.
+This LMS platform is designed to help educators and institutions manage courses, quizzes, notifications, and real-time chat effectively. The platform provides features for creating courses, managing students, tracking progress, and more.
 
 ## Features
 
@@ -25,18 +25,20 @@ This LMS platform is designed to help educators and institutions manage courses,
 - Module and Lesson Management
 - Student Enrollment and Progress Tracking
 - Assignment and Quiz Management
+- Quiz Builder
 - Real-Time Notifications
+- Real-Time Chat
 - Discussion Forums
 - Reporting and Analytics
 
 ## Tech Stack
 
-- **Frontend:** HTML, CSS, JavaScript, React
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
+- **Frontend:** Nextjs
+- **Backend:** tbd
+- **Database:** tbd
 - **Authentication:** JWT (JSON Web Tokens)
 - **Real-Time Communication:** Socket.io
-- **Deployment:** Docker, Kubernetes
+
 
 ## Installation
 
@@ -71,8 +73,8 @@ This LMS platform is designed to help educators and institutions manage courses,
 2. Sign up as a new user.
 3. Log in using your credentials.
 4. As an admin, create new courses and manage users.
-5. As an instructor, create and manage course content.
-6. As a student, enroll in courses and track your progress.
+5. As an instructor, create and manage course content and quizzes.
+6. As a student, enroll in courses, complete quizzes, and track your progress.
 
 ## Contributing
 
@@ -126,41 +128,59 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [ ] Instructor: Create, update, delete modules and lessons
 - [ ] Student: Enroll in courses, track progress
 
-### Phase 5: Assignments and Quizzes
+### Phase 5: Quiz Builder
 
-- [ ] Instructor: Create, update, delete assignments and quizzes
-- [ ] Student: Submit assignments, take quizzes
+- [ ] Instructor: Create, update, delete quizzes
+- [ ] Instructor: Add, update, delete quiz questions
+- [ ] Student: Take quizzes
+- [ ] Automatic quiz grading
 
-### Phase 6: Real-Time Features
+### Phase 6: Notifications
 
 - [ ] Implement real-time notifications (Socket.io)
-- [ ] Implement discussion forums
+- [ ] Notifications for course updates
+- [ ] Notifications for quiz updates
+- [ ] General notifications
 
-### Phase 7: Reporting and Analytics
+### Phase 7: Real-Time Chat
+
+- [ ] Implement real-time chat functionality (Socket.io)
+- [ ] Create chat rooms for each course
+- [ ] Direct messaging between users
+- [ ] Chat history and storage
+
+### Phase 8: Discussion Forums
+
+- [ ] Implement discussion forums for courses
+- [ ] Create, update, delete forum posts
+- [ ] Comment on forum posts
+
+### Phase 9: Reporting and Analytics
 
 - [ ] Implement reporting dashboard for admins
 - [ ] Track student progress and performance
+- [ ] Generate course and user reports
 
-### Phase 8: Deployment
+### Phase 10: Deployment
 
 - [ ] Set up Docker for containerization
 - [ ] Configure Kubernetes for orchestration
 - [ ] Deploy to cloud provider (e.g., AWS, GCP, Azure)
 
-### Phase 9: Testing and QA
+### Phase 11: Testing and QA
 
 - [ ] Write unit tests for backend
 - [ ] Write unit tests for frontend
 - [ ] Perform integration testing
 - [ ] Conduct user acceptance testing (UAT)
 
-### Phase 10: Documentation
+### Phase 12: Documentation
 
 - [ ] Create detailed documentation for API
 - [ ] Create user guides for different roles (Admin, Instructor, Student)
 - [ ] Set up a FAQ section
 
-### Phase 11: Maintenance and Updates
+### Phase 13: Maintenance and Updates
 
 - [ ] Monitor for bugs and issues
 - [ ] Regularly update dependencies
