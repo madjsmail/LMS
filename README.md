@@ -45,7 +45,7 @@ This LMS platform is designed to help educators and institutions manage courses,
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/lms-platform.git
+    git clone https://github.com/madjsmail/LMS.git
     cd lms-platform
     ```
 
@@ -92,17 +92,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## To-Do List
 
 ### Phase 1: Initial Setup
-
+- [ ] Create README file
+  - [ ] Write project description
+  - [ ] Outline features
+  - [ ] Provide installation and usage instructions
 - [ ] Set up project structure
   - [ ] Create directories for frontend and backend
   - [ ] Initialize package.json for both frontend and backend
 - [ ] Initialize Git repository
   - [ ] Initialize git in the root directory
   - [ ] Create initial commit
-- [ ] Create README file
-  - [ ] Write project description
-  - [ ] Outline features
-  - [ ] Provide installation and usage instructions
 - [ ] Set up environment variables
   - [ ] Create a .env file in the root directory
   - [ ] Add necessary environment variables
@@ -183,6 +182,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [ ] Instructor: Create, update, delete quizzes
   - [ ] Implement quiz schema
+  - [ ] Create multiples component to handle multiple quiz type
   - [ ] Create endpoints for CRUD operations
 - [ ] Instructor: Add, update, delete quiz questions
   - [ ] Implement quiz question schema
