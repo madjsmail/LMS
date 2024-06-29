@@ -33,12 +33,12 @@ This LMS platform is designed to help educators and institutions manage courses,
 
 ## Tech Stack
 
-- **Frontend:** Nextjs
-- **Backend:** tbd
-- **Database:** tbd
+- **Frontend:**  Next.js
+- **Backend (Final):** Go
+- **Database:** MongoDB
 - **Authentication:** JWT (JSON Web Tokens)
 - **Real-Time Communication:** Socket.io
-
+- **Deployment:** Docker, Kubernetes
 
 ## Installation
 
@@ -97,7 +97,19 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [ ] Create README file
 - [ ] Set up environment variables
 
-### Phase 2: Backend Development
+### Phase 2: Frontend Development with Next.js
+
+- [ ] Set up Next.js application
+- [ ] Configure routing
+- [ ] Implement user authentication pages
+  - [ ] Sign Up page
+  - [ ] Login page
+- [ ] Implement role-based dashboards
+  - [ ] Admin dashboard
+  - [ ] Instructor dashboard
+  - [ ] Student dashboard
+
+### Phase 3: Backend Development with Node.js
 
 - [ ] Set up Express server
 - [ ] Configure MongoDB connection
@@ -109,18 +121,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   - [ ] Admin role
   - [ ] Instructor role
   - [ ] Student role
-
-### Phase 3: Frontend Development
-
-- [ ] Set up React application
-- [ ] Configure routing (React Router)
-- [ ] Implement user authentication pages
-  - [ ] Sign Up page
-  - [ ] Login page
-- [ ] Implement role-based dashboards
-  - [ ] Admin dashboard
-  - [ ] Instructor dashboard
-  - [ ] Student dashboard
 
 ### Phase 4: Course Management
 
@@ -161,26 +161,45 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [ ] Track student progress and performance
 - [ ] Generate course and user reports
 
-### Phase 10: Deployment
+### Phase 10: Splitting Backend to Go
+
+- [ ] Set up Go server
+- [ ] Implement user authentication (JWT) in Go
+  - [ ] User registration
+  - [ ] User login
+  - [ ] Password hashing
+- [ ] Implement role-based access control in Go
+  - [ ] Admin role
+  - [ ] Instructor role
+  - [ ] Student role
+- [ ] Migrate course management to Go
+- [ ] Migrate quiz builder to Go
+- [ ] Migrate notifications to Go
+- [ ] Migrate real-time chat to Go
+- [ ] Migrate discussion forums to Go
+- [ ] Migrate reporting and analytics to Go
+
+### Phase 11: Deployment
 
 - [ ] Set up Docker for containerization
 - [ ] Configure Kubernetes for orchestration
 - [ ] Deploy to cloud provider (e.g., AWS, GCP, Azure)
 
-### Phase 11: Testing and QA
+### Phase 12: Testing and QA
 
-- [ ] Write unit tests for backend
+- [ ] Write unit tests for Node.js backend
+- [ ] Write unit tests for Go backend
 - [ ] Write unit tests for frontend
 - [ ] Perform integration testing
 - [ ] Conduct user acceptance testing (UAT)
 
-### Phase 12: Documentation
+### Phase 13: Documentation
 
 - [ ] Create detailed documentation for API
 - [ ] Create user guides for different roles (Admin, Instructor, Student)
 - [ ] Set up a FAQ section
 
-### Phase 13: Maintenance and Updates
+### Phase 14: Maintenance and Updates
 
 - [ ] Monitor for bugs and issues
 - [ ] Regularly update dependencies
